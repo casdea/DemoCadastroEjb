@@ -11,7 +11,7 @@ import br.com.maxima.demo.cadastro.dto.ClienteEnvDTO;
 import br.com.maxima.demo.cadastro.jpa.entity.Cliente;
 
 @Stateless
-public class CadastroServico implements br.com.maxima.demo.cadastro.servicos.ICadastroServicoLocal
+public class CadastroServico implements ICadastroServicoLocal
 {
 	@PersistenceContext(unitName="demoDatabase")
 	private EntityManager em;

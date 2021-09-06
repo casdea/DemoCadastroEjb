@@ -6,7 +6,8 @@
 		<dependencies>
    	  		<module name="org.firebirdsql" />
 			<module name="sistemas.hibernate" />
-			
+			<module name="sistemas.org.apache.axis"  export="TRUE"/>
+			<module name="sistemas.org.apache.jaxrpc"  export="TRUE"/>				
 		</dependencies>
 	</deployment>
 
